@@ -1,0 +1,24 @@
+{
+  "name": "fec-proxy-2",
+  "version": "1.0.0",
+  "description": "Proxy server for Twitch item detail page clone",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdfekaris/FEC-proxy-2.git"
+  },
+  "author": "gdf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdfekaris/FEC-proxy-2/issues"
+  },
+  "homepage": "https://github.com/gdfekaris/FEC-proxy-2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.5.1"
+  }
+}
